@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.edge": "html",
+    "pthread.h": "c"
+  }
+}
