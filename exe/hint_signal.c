@@ -22,14 +22,13 @@ void handle_sigusr1(int sig);
 
 int main(int argv, char *arch[])
 {
+   // - Create a child process using `fork`.
 
-  // - Create a child process using `fork`.
+   // - In the child process, send a signal to the parent after a delay.
+   // - In the parent process:
+   // - - Set up a signal handler to respond to the signal.
+   // - - Prompt the user for input and check their response.
+   // - - Print appropriate messages based on the input and signal.
 
-  // - In the child process, send a signal to the parent after a delay.
-  // - In the parent process:
-  // - - Set up a signal handler to respond to the signal.
-  // - - Prompt the user for input and check their response.
-  // - - Print appropriate messages based on the input and signal.
-
-  return 0;
+   return 0;
 }
