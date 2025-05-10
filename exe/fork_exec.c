@@ -17,14 +17,14 @@ Exercise Instructions:
 int main(int argc, char *argv[])
 {
 
-  // - Create a child process using `fork`.
-  // - In the child process:
-  // - Open a file for writing.
-  // - Redirect standard output to the file.
-  // - Execute a command using `execlp`.
-  // - In the parent process:
-  // - Wait for the child process to finish.
-  // - Print success or failure based on the child's exit status.
+   // - Create a child process using `fork`.
+   // - In the child process:
+   // - Open a file for writing.
+   // - Redirect standard output to the file.
+   // - Execute a command using `execlp`.
+   // - In the parent process:
+   // - Wait for the child process to finish.
+   // - Print success or failure based on the child's exit status.
 
-  return 0;
+   return 0;
 }
